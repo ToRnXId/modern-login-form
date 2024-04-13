@@ -10,9 +10,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
+    <None Remove="Images\background-image.jpg" />
+    <None Remove="Images\background-image.png" />
+    <None Remove="Images\logo.jpg" />
+    <None Remove="Images\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\background-image.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\background-image.png" />
+    <Resource Include="Images\logo.png" />
   </ItemGroup>
 
 </Project>
