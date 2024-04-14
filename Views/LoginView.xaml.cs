@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace modern_login_form.View
+namespace modern_login_form.Views
 {
     /// <summary>
     /// Interaction logic for LoginView.xaml
