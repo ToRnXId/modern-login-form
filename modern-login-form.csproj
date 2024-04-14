@@ -12,8 +12,10 @@
   <ItemGroup>
     <None Remove="Images\background-image.jpg" />
     <None Remove="Images\background-image.png" />
+    <None Remove="Images\key-icon.png" />
     <None Remove="Images\logo.jpg" />
     <None Remove="Images\logo.png" />
+    <None Remove="Images\user-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,7 +28,9 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\background-image.png" />
+    <Resource Include="Images\key-icon.png" />
     <Resource Include="Images\logo.png" />
+    <Resource Include="Images\user-icon.png" />
   </ItemGroup>
 
 </Project>

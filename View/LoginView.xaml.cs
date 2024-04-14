@@ -39,5 +39,10 @@ namespace modern_login_form.View
         {
             Application.Current.Shutdown();
         }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
